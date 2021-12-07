@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: calc(100% / 4);
+  padding: 25px 20px;
+  color: #fff;
+
+  &:nth-child(1) {
+    background-color: #233dff;
+  }
+
+  &:nth-child(2) {
+    background-color: #ff007f;
+  }
+
+  &:nth-child(3) {
+    background-color: #241e4e;
+  }
+
+  &:nth-child(4) {
+    background-color: #4169e1;
+  }
+  &:nth-child(5) {
+    background-color: #d4af37;
+  }
+
+  .percentage {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
