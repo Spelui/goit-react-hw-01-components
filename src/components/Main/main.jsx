@@ -15,7 +15,7 @@ const Main = () => {
         location={location}
         avatar={avatar}
       />
-      <Statistics />
+      <Statistics title="Upload stats" />
       <FriendList />
       <TransactionHistory />
     </main>
